@@ -9,11 +9,6 @@ function ExpenseItem(props) {
   // array destrurcturing
   const [title, setTitle] = useState(props.title);
 
-  console.log(
-    "useState return items title and setTitle" + title + ", " + setTitle
-  );
-  console.log(title, setTitle);
-
   const clickHandler = () => {
     // allows the components restruct
     setTitle("Updated");
